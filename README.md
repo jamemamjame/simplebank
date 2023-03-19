@@ -24,7 +24,7 @@ go mod init github.com/techschool/simplebank
 ```
 go mod tidy
 ```
-2. Generate mcok database for testing
+2. Generate mock database for testing
 ```
 make mock
 ```
