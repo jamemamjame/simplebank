@@ -13,6 +13,7 @@ import (
 var testQueries *Queries
 var testDB *sql.DB
 
+// TestMain is the entry point for running all tests in this package ("db").
 func TestMain(m *testing.M) {
 	config, err := util.LoadConfig("../..")
 	if err != nil {

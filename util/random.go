@@ -9,6 +9,7 @@ import (
 
 const alphabet = "abcdefghijklmnopqrstuvwxyz"
 
+// init will be called before main automatically when the package is loaded
 func init() {
 	rand.Seed(time.Now().UnixNano())
 }
